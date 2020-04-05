@@ -24,6 +24,9 @@ namespace MonRestApi.Infrastructure.Data.Tables
         public string Password { get; set; }
 
         [Required]
+        public string Telephone { get; set; }
+
+        [Required]
         public int IdAdresse { get; set; }
 
         public virtual ICollection<Ticket> Ticket { get; set; }
